@@ -17,7 +17,7 @@ def create_average_season_rental_df(df):
     average_season_rental_df = df.groupby(by="season").cnt.mean().sort_values(ascending=False)
     return average_season_rental_df
 
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("dashboard/main_data.csv")
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
