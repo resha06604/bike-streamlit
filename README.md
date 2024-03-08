@@ -1,4 +1,4 @@
-# Bike Sharing 
+# Bike Sharing - Capital Bikeshare :bike:
 
 ## Setup environment
 ```
